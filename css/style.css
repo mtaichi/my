@@ -310,12 +310,14 @@ section h1 {
     color: var(--primaryColor);
 }
 
+
 .banner h1 {
 
     font-size: calc(2rem + 1vw);
     padding: 1rem 1.5rem;
-    width: 60vw;
-    max-width: 25rem;
+    width: 30rem;
+    max-width: 70vw;
+
     overflow: hidden;
     margin: auto auto;
     border-top: 0.5rem dotted rgba(255, 255, 255, 0.5);
@@ -334,17 +336,19 @@ section h1 {
 .navbar-brand::after {
     content: "m";
     background: var(--primaryColor);
-    padding: 0.2em 0.5em;
+    padding: 0.1rem 0.5em;
     font-size: 0.3em;
     border-radius: 0.2rem;
-    margin-left: 0.5em;
+    /*    margin-left: 0.5em;*/
     color: #fff;
 
 
 }
 
 .navbar-brand::after {
-    margin-left: 0.2rem;
+    margin-left: -0.2rem;
+    font-size: 0.2em;
+    padding: 0.2em 0.5em;
 }
 
 .banner h1 strong {
