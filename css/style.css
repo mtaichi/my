@@ -312,14 +312,15 @@ section h1 {
 
 
 .banner h1 {
+/*
+font-size: 2rem;
+padding: 1rem 1.5rem;
+min-width: 30rem;
+max-width: 80vw;
 
-    font-size: calc(1.5rem + 2vw);
-    padding: 1rem 1.5rem;
-    min-width: 30rem;
-    max-width: 80vw;
-
-    overflow: hidden;
-    margin: auto auto;
+overflow: hidden;
+margin: auto auto;
+*/
     /*    border-top: 0.5rem dotted rgba(255, 255, 255, 0.5);*/
     /*    border-bottom: 0.5rem dotted rgba(255, 255, 255, 0.5);*/
     color: var(--primaryColor);
