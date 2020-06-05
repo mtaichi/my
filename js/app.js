@@ -1,13 +1,13 @@
 $(document).ready(function () {
 
     //    $(".item-link").magnify();
-    $('.gallery-container').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    //    $('.gallery-container').magnificPopup({
+    //        delegate: 'a',
+    //        type: 'image',
+    //        gallery: {
+    //            enabled: true
+    //        }
+    //    });
     $(".nav-link").on('click', function (event) {
         event.preventDefault();
         const section = event.target.href
@@ -29,7 +29,7 @@ $(document).ready(function () {
 
         const posSpec = parseInt($('#special').offset().top);
         const posContact = parseInt($('#contact').offset().top);
-        console.log(posSpec, posContact)
+        // console.log(posSpec, posContact)
         if (pos >= posSpec && pos <= posContact) {
             //            console.log(pos, posSpec, posContact)
             $('.header-link').css({
